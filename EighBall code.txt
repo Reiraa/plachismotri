@@ -1,0 +1,33 @@
+let userName = 'Tim';
+userName ? console.log(`Hello, ${userName}`) : console.log('Hello!');
+let userQuestion = '*?'
+console.log(`${userName} asked: ${userQuestion}`);
+const randomNumber = Math.floor(Math.random() * 8);
+let eightBall = '';
+switch (randomNumber) {
+  case 0:
+    eightBall = 'It is certain';
+    break;
+  case 1:
+    eightBall = 'Go fuck yourself';
+    break;
+  case 2:
+    eightBall = 'Reply hazy try again';
+    break;
+  case 3:
+    eightBall = 'Cannot predict now';
+    break;
+  case 4:
+    eightBall = 'Go nahuy';
+    break;
+  case 5:
+    eightBall = 'My sources say no';
+    break;
+  case 6:
+    eightBall = 'Getting drunk is better';
+    break;
+  case 7:
+    eightBall = 'Signs point to yes';
+    break;
+}
+console.log(`The eight ball answered: ${eightBall}`);
