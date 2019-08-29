@@ -1,4 +1,4 @@
-let userName = 'Tim';йцуцу
+let userName = 'Tim';
 userName ? console.log(`Hello, ${userName}`) : console.log('Hello!');
 let userQuestion = '*?'
 console.log(`${userName} asked: ${userQuestion}`);
